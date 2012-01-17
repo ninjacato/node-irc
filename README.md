@@ -1,1 +1,4 @@
-A severly uncompleted Node.js library for IRC
+node-irc
+=============
+
+An eventful irc library for Node.js -- soon to be done ;-)

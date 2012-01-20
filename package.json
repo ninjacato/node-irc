@@ -1,0 +1,35 @@
+{
+  "name" : "irc",
+  "description" : "A client IRC library for node",
+  "keywords" : [
+    "irc",
+    "chat",
+    "network",
+    "socket"
+  ],
+  "version" : "0.1",
+  "homepage" : "https://github.com/bleakgadfly/node-irc",
+  "author" : "Cato Auestad, <bleakgadfly@fsfe.org>",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/bleakgadfly/node-irc"
+  },
+  "directories" : {
+    "lib" : "./lib"
+  },
+  "main" : "./lib/client.js",
+  "engines" : {
+    "node" : "0.6",
+    "npm" : "1"
+  },
+  "licenses" : [
+    {
+      "type" : "ISC License",
+      "url" : "http://www.isc.org/software/license"
+    }
+  ],
+}
+    
+  
+  
+

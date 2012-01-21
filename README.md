@@ -22,7 +22,7 @@ var ircClient = require('node-irc');
 ### Pass in the server, port, nickname and fullname as parameters to the constructor.
 
 ```
-var client = new ircClient('irc.freenode.net', 6667,
+var client = new ircClient('irc.freenode.net', 6667, 'SomeNick', 'SomeFullname');
 ```
 
 ### Add an event handler for what to do When the server is ready, like joining a channel and say something weird.
@@ -39,3 +39,6 @@ client.on('ready', function () {
 ```
 client.connect()
 ```
+
+### More details
+See [samples](https://github.com/bleakgadfly/node-irc/tree/master/samples) and [wiki](https://github.com/bleakgadfly/node-irc/wiki)

@@ -2,9 +2,9 @@ var ircClient = require('./client.js');
 
 var server = 'irc.freenode.net',
     port = 6667,
-    nick = 'bgad2',
-    fullname = 'SomeNick',
-    chan = '#heia';
+    nick = 'lolznick',
+    fullname = 'lolzname',
+    chan = '#Nuug';
 
 // Create client object, pass in constructor arguments
 var client = new ircClient(server, port, nick, fullname);

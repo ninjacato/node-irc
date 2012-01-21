@@ -1,7 +1,7 @@
 node-irc
 =============
 
-node-irc is a socket wrapper for the IRC protocol that extends EventEmitter. node-irc aims to be an efficient, extremely easy to use IRC library used to build bots and clients.
+node-irc is a socket wrapper for the IRC protocol that extends Node.js' EventEmitter. node-irc aims to be an efficient, extremely easy to use IRC library used to build bots and clients.
 
 Get started
 -------------

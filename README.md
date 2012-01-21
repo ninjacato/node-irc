@@ -1,6 +1,35 @@
 node-irc
 =============
 
-node-irc is a socket wrapper for the IRC protocol to be used with node.
+node-irc is a socket wrapper for the IRC protocol that extends EventEmitter. node-irc aims to be an efficient, extremely easy to use IRC library used to build bots and clients.
 
-See the samples/ directory for examples.
+Get started
+-------------
+
+### Install node-irc with npm
+
+```
+npm install node-irc
+```
+
+### Import node-irc
+
+
+```
+var ircClient = require('node-irc');
+```
+
+### Pass in the server, port, nickname and fullname as parameters to the constructor.
+
+```
+var client = new ircClient('irc.freenode.net', 6667,
+```
+
+### When the server is ready, join a channel and say something weird
+
+```
+client.on('ready', function () {
+  client.join('#Node.js');
+  client.say('#Node.js', 'I see node people fart');
+});
+```

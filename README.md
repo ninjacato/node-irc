@@ -6,13 +6,13 @@ node-irc is a socket wrapper for the IRC protocol that extends EventEmitter. nod
 Get started
 -------------
 
-### Install node-irc with npm
+### Install node-irc with npm.
 
 ```
 npm install node-irc
 ```
 
-### Import node-irc
+### Import node-irc.
 
 
 ```
@@ -25,11 +25,11 @@ var ircClient = require('node-irc');
 var client = new ircClient('irc.freenode.net', 6667,
 ```
 
-### When the server is ready, join a channel and say something weird
+### When the server is ready, join a channel and say something weird.
 
 ```
 client.on('ready', function () {
   client.join('#Node.js');
-  client.say('#Node.js', 'I see node people fart');
+  client.say('#Node.js', 'I see node people fart.');
 });
 ```

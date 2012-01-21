@@ -25,11 +25,17 @@ var ircClient = require('node-irc');
 var client = new ircClient('irc.freenode.net', 6667,
 ```
 
-### When the server is ready, join a channel and say something weird.
+### Add an event handler for what to do When the server is ready, like joining a channel and say something weird.
 
 ```
 client.on('ready', function () {
   client.join('#Node.js');
   client.say('#Node.js', 'I see node people fart.');
 });
+```
+
+### Connect to the server
+
+```
+client.connect()
 ```

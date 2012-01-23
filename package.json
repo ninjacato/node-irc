@@ -1,35 +1,30 @@
 {
-  "name" : "irc",
-  "description" : "A client IRC library for node",
-  "keywords" : [
+  "author": "Cato Auestad <bleakgadfly@fsfe.org> (https://github.com/bleakgadfly)",
+  "name": "node-irc",
+  "description": "An easy to use IRC socket wrapper",
+  "keywords": [
     "irc",
     "chat",
-    "network",
-    "socket"
+    "socket",
+    "network"
   ],
-  "version" : "0.1",
-  "homepage" : "https://github.com/bleakgadfly/node-irc",
-  "author" : "Cato Auestad, <bleakgadfly@fsfe.org>",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/bleakgadfly/node-irc"
+  "version": "0.0.3",
+  "homepage": "https://github.com/bleakgadfly",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bleakgadfly/node-irc.git"
   },
-  "directories" : {
-    "lib" : "./lib"
+  "main": "./lib/client.js",
+  "engines": {
+    "node": ">=0.4.7"
   },
-  "main" : "./lib/client.js",
-  "engines" : {
-    "node" : "0.6",
-    "npm" : "1"
-  },
-  "licenses" : [
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "licenses": [
     {
-      "type" : "ISC License",
-      "url" : "http://www.isc.org/software/license"
+      "type": "ISC License",
+      "url": "https://github.com/bleakgadfly/node-irc/blob/master/LICENSE"
     }
-  ],
+  ]
 }
-    
-  
-  
-

@@ -18,11 +18,11 @@
   "engines": {
     "node": ">=0.4.7"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {
     "proxysocket": "^1.2.0"
   },
-  "devDependencies": {},
-  "optionalDependencies": {},
   "licenses": [
     {
       "type": "ISC License",

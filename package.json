@@ -1,5 +1,5 @@
 {
-  "author": "Cato Auestad <bleakgadfly@fsfe.org> (https://github.com/bleakgadfly)",
+  "author": "Cato Auestad <cato@cato.ninja> (https://github.com/ninjacato)",
   "name": "node-irc",
   "description": "An easy to use IRC socket wrapper",
   "keywords": [
@@ -9,10 +9,10 @@
     "network"
   ],
   "version": "0.0.4",
-  "homepage": "https://github.com/bleakgadfly",
+  "homepage": "https://github.com/ninjacato",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bleakgadfly/node-irc.git"
+    "url": "git://github.com/ninjacato/node-irc.git"
   },
   "main": "./lib/client.js",
   "engines": {
@@ -26,7 +26,7 @@
   "licenses": [
     {
       "type": "ISC License",
-      "url": "https://github.com/bleakgadfly/node-irc/blob/master/LICENSE"
+      "url": "https://github.com/ninjacato/node-irc/blob/master/LICENSE"
     }
   ]
 }

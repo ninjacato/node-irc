@@ -1,3 +1,6 @@
+DEPRECATION NOTICE: This library is no longer maintained.
+=============
+
 node-irc
 =============
 
@@ -30,7 +33,7 @@ var client = new ircClient('irc.freenode.net', 6667, 'SomeNick', 'SomeFullname')
 ```
 client.on('ready', function () {
   client.join('#Node.js');
-  client.say('#Node.js', 'I see node people fart.');
+  client.say('#Node.js', 'I see node people.');
 });
 ```
 
@@ -41,4 +44,4 @@ client.connect()
 ```
 
 ### More details
-See [samples](https://github.com/bleakgadfly/node-irc/tree/master/samples) and [wiki](https://github.com/bleakgadfly/node-irc/wiki)
+See [samples](https://github.com/ninjacato/node-irc/tree/master/samples) and [wiki](https://github.com/ninjacato/node-irc/wiki)
